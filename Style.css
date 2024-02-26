@@ -1,0 +1,352 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+footer{
+  height: 200px;
+  background-color: #1a1a1a;
+}
+
+/* ----------------------------navbar-------------------------------- */
+
+#navbar{
+    width: 100%;
+    height: 50px;
+    top: 0px;
+    /* border: 2px solid red; */
+    /* border-radius: 5px; */
+    display: flex;
+    background-color: #0a0a0af3;
+
+}
+nav #logo img{
+    width: 150px;
+    height: 50px;
+    top: 0px;
+    margin-left: 40px;
+    
+}
+
+nav li{
+    display: inline;
+    margin-right: 30px;
+    
+}
+
+nav li a{
+    text-decoration: none;
+    color: beige;
+    
+}
+nav ol {
+    margin-top: 16px;
+}
+
+ #login a{
+    /* margin-left: 150px;
+    padding-top: 15px; */
+    /* position: fixed ; */
+    /* right: 70px; */
+    /* margin-top: 15px; */
+    text-decoration: none;
+    color: beige;
+}
+
+#login{
+  margin-top: 16px;
+  margin-left: 560px;
+}
+
+/* -----------------------------Bannner design ----------------------------------------- */
+
+.sections{
+    /* background-color: aqua; */
+    width: 100%;
+    height: 550px;
+}
+
+#banner #bd1,#bd2{
+    width: 330px;
+    height: 200px;
+    margin-left: 10px;
+    background-color: red;
+}
+
+#SubBanners{
+    /* margin-left: 40%; */
+    position: absolute;
+    left: 25%;
+    top: 360px;
+    display: flex;
+    
+}
+
+#banner{
+    background-image: url("https://img.freepik.com/free-photo/hot-pizza-adorned-with-vibrant-tomatoes-greens-features-melted-cheese-stretching-out_91128-4677.jpg?t=st=1708593455~exp=1708597055~hmac=f2059a5d256a35ccf64034cbe627ac6c6ada486e562af7b439533b221acd41b7&w=996");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0 0 20px 20px;
+    
+}
+
+#bd1{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReoOq4aeIEhGZ7C7y__tsGJu-XpNmE74BlBg0gWfNEoqex-iDPaSjDNJqKmpLcuD7hBhs&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: 330px 200px;
+    border-radius: 15px;
+}
+#bd2{
+    background-image: url("https://i.ytimg.com/vi/fgA_uepQ9QQ/maxresdefault.jpg");
+    background-repeat: no-repeat;
+    background-size: 330px 200px;
+    border-radius: 15px;
+}
+#info{
+    background-color: bisque;
+}
+
+
+/* -------------------------info---------------------------- */
+#info{
+  margin: 0;
+  padding: 0;
+  background-color:rgba(0, 0, 0, 0.664);
+  height: 900px;
+}
+#info div{
+  border: 2px solid red;
+  height: 300px;
+  width: 70%;
+  margin-left: 210px;
+  margin-top: 40px;
+  color: white;
+}
+
+#info h1{
+color: white;
+margin-left:550px ;
+margin-top: 0px;
+padding-top: 30px;
+
+}
+
+#info1 img{
+  height: 260px;
+  width: 350px;
+  float: left;
+  padding: 20px;
+}
+
+#info2 img{
+  height: 260px;
+  width: 350px;
+  float: right;
+  padding: 20px;
+}
+/* ---------------------------MENU--------------------------- */
+
+body{
+    /* background-image: url("https://img.freepik.com/free-photo/two-plants-dark-surface_23-2147661190.jpg?t=st=1708624365~exp=1708627965~hmac=f6b4c486d2137597991639955feab77bf9095b5bdf684c56f843635dfc979d4b&w=996"); */
+    background-image: url("https://img.freepik.com/free-photo/abstract-dark-blurred-background-smooth-gradient-texture-color-shiny-bright-website-pattern-banner-h_1258-83456.jpg?t=st=1708667385~exp=1708670985~hmac=38bd57268e66b6b8933c2b8f8ba6fb3957a214611aa50f4c7a2520b9b4396ff8&w=740");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#menuHeading h1{
+    /* border: 5px solid blueviolet; */
+   padding-left:45%;
+   padding-top: 20px;
+    /* align-items: center; */
+    height: 60px;
+    color: azure;
+    
+}
+.menuitems{
+    width: 230px;
+    height:380px;
+    background-color: lightgray;
+    border-radius: 10px;
+    border: red solid 2px;
+    display: inline-block;
+    justify-content: space-around;
+    margin: 30px 75px;
+    padding-left: 50px;
+}
+hr{
+    width: 600px;
+    color: black;
+    height: 3px;
+    background-color: wheat;
+}
+
+.menuImage{
+    height: 200px;
+    width: 210px;
+    background-color: pink;
+    margin: 20px;
+    position: relative;
+    right: 33px;  
+    border-radius: 30px;
+    background-image: url("https://img.freepik.com/free-photo/tasty-top-view-sliced-pizza-italian-traditional-round-pizza_90220-1353.jpg?t=st=1708622377~exp=1708625977~hmac=18b5b15614b0241fbe00f31f99dafa12cd64a2289c7e01f39c7573c50e072471&w=740");
+    background-size: cover;
+}
+
+.menuitems button{
+    width: 200px;
+    height: 35px;
+    border-radius: 10px;
+    margin-top: 10px;
+    
+}
+.pizzaName{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+
+
+/* --------------------------------Login Page------------------------------- */
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+
+
+.login-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+  
+}
+.form {
+    
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 30px 30px 5px black ;
+}
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+  border: 1px darkgray solid;
+}
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #4CAF50;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.form button:hover,.form button:active,.form button:focus {
+  background: #43A047;
+}
+.form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.form .message a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+.form .register-form {
+  display: none;
+}
+.container {
+  position: relative;
+  z-index: 1;
+  max-width: 300px;
+  margin: 0 auto;
+}
+.container:before, .container:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.container .info {
+  margin: 50px auto;
+  text-align: center;
+}
+.container .info h1 {
+  margin: 0 0 15px;
+  padding: 0;
+  font-size: 36px;
+  font-weight: 300;
+  color: #1a1a1a;
+}
+.container .info span {
+  color: #4d4d4d;
+  font-size: 12px;
+}
+.container .info span a {
+  color: #000000;
+  text-decoration: none;
+}
+.container .info span .fa {
+  color: #EF3B3A;
+}
+/* body {
+  background: #76b852; fallback for old browsers 
+  background-color: rgb(141,194,111);
+  background: linear-gradient(90deg, rgba(141,194,111,1) 0%, rgba(118,184,82,1) 50%);
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;      
+} */
+
+/* ---------------------Registration Form-------------------- */
+
+#tbl{
+  background-color: beige;
+  border: 2px solid red;
+  padding: 30px;
+  position: absolute;
+  top: 100px;
+  left: 400px;
+  box-shadow: 25px 25px;
+  border-radius: 10px;
+}
+.error{
+  color: red;
+}
+td{
+  color: black;
+  padding: 7px;
+  font-weight: bolder;
+}
+td input{
+  height: 25px;
+  width: 250px;
+  background-color: lightgray;
+  /* border-radius: 10px; */
+}
+
+#logintext a{
+  padding-left: 10px;
+  color: lightseagreen;
+
+}
+#Regform{
+  color: white;
+  font-weight: bold;
+  margin-left: 580px;
+  margin-top: 40px;
+}
